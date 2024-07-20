@@ -2,6 +2,7 @@
 title = 'Who Am I'
 date = 2024-07-20T18:01:57+02:00
 draft = false
+tags = ["technology", "web development", "hugo"]
 +++
 
 Hello, my name is [Your Name]. I am currently studying reverse engineering for legal purposes and learning English. My focus area is binary exploitation.
