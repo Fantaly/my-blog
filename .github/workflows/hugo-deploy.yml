@@ -27,4 +27,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           source: "public/*"
-          target: "/path/to/your/hugo/site/on/vps"
+          target: "/var/www/html"
