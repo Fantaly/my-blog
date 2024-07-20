@@ -26,12 +26,12 @@ jobs:
           echo "${{ secrets.SSH_PASSPHRASE }}" > passphrase
           ssh-keygen -p -f private_key -P "$(cat passphrase)" -N ""
 
-      - name: Add SSH Key
+      - name: Fix SSH Key Permissions
         run: |
           mkdir -p ~/.ssh
           mv private_key ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-        shell: bash
+          ssh-keyscan -H ${{ secrets.HOST }} >> ~/.ssh/known_hosts
 
       - name: Deploy to VPS
         uses: appleboy/scp-action@master
