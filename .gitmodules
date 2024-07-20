@@ -7,3 +7,7 @@
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/BlankLight"]
+	path = themes/BlankLight
+	url = https://github.com/Fantaly/hugo-BlankLight.git
+ 
