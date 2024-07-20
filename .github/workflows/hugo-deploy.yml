@@ -1,7 +1,9 @@
 name: Deploy Hugo site to VPS
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   deploy:
@@ -19,19 +21,6 @@ jobs:
 
       - name: Build
         run: hugo --minify
-
-      - name: Decrypt SSH Key
-        run: |
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > private_key
-          echo "${{ secrets.SSH_PASSPHRASE }}" > passphrase
-          ssh-keygen -p -f private_key -P "$(cat passphrase)" -N ""
-
-      - name: Fix SSH Key Permissions
-        run: |
-          mkdir -p ~/.ssh
-          mv private_key ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -H ${{ secrets.HOST }} >> ~/.ssh/known_hosts
 
       - name: Deploy to VPS
         uses: appleboy/scp-action@master
