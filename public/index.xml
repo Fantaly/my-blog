@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Emanuel Ragusi</title>
+    <link>http://localhost:49768/</link>
+    <description>Recent content on Emanuel Ragusi</description>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Jul 2024 18:02:23 +0200</lastBuildDate>
+    <atom:link href="http://localhost:49768/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How a Stupid Bot Could Win Me Money</title>
+      <link>http://localhost:49768/posts/how-a-stupid-bot-could-win-me-money/</link>
+      <pubDate>Sat, 20 Jul 2024 18:02:23 +0200</pubDate>
+      <guid>http://localhost:49768/posts/how-a-stupid-bot-could-win-me-money/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Who Am I</title>
+      <link>http://localhost:49768/posts/who-am-i/</link>
+      <pubDate>Sat, 20 Jul 2024 18:01:57 +0200</pubDate>
+      <guid>http://localhost:49768/posts/who-am-i/</guid>
+      <description>Hello, my name is [Your Name]. I am currently studying reverse engineering for legal purposes and learning English. My focus area is binary exploitation.
+Background I have a keen interest in understanding how software works at a fundamental level. This has led me to explore reverse engineering, where I dismantle software to see how it functions internally. This process is fascinating and helps in improving my problem-solving skills.
+Interests Reverse Engineering: Delving into software internals to understand its workings.</description>
+    </item>
+    <item>
+      <title>My New Post</title>
+      <link>http://localhost:49768/posts/my-new-post/</link>
+      <pubDate>Sat, 20 Jul 2024 17:59:14 +0200</pubDate>
+      <guid>http://localhost:49768/posts/my-new-post/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
