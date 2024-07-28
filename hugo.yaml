@@ -1,0 +1,45 @@
+baseURL: "https://blog.manuelrage.dev/"
+languageCode: "en-us"
+title: "Manuelrage.dev"
+theme: "BlankLight"
+paginate: 10
+defaultTheme: light
+disableThemeToggle: true
+ShowToc: true
+TocOpen: true
+params:
+  comments: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  homeInfoParams:
+    Title: Hi there wave
+    Content: Can be Info, links, about...
+
+
+
+languages:
+  en:
+    params:
+      reading_speed: 228
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Notes
+          url: note
+          weight: 1
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+        - name: WiKi
+          url: https://github.com/adityatelange/hugo-PaperMod/wiki/

@@ -1,11 +1,9 @@
 +++
-title = "The illusion of innovation"
+title = 'The illusion of innovation'
 date = 2024-07-20T18:01:57+02:00
 draft = false
 tags = ["Just my stupid opinion"]
-reading_time = 5
 +++
-
 
 ___I want to place a big disclaimer here: everything you are about to read does not refer to every company or startup you can think of, but still, 80% of them will probably fall into my negative perception.___
 

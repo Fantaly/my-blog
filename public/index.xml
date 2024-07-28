@@ -5,9 +5,37 @@
     <link>http://localhost:1313/</link>
     <description>Recent content on Manuelrage.dev</description>
     <generator>Hugo -- 0.129.0</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 20 Jul 2024 18:02:23 +0200</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Sun, 28 Jul 2024 10:00:00 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Note</title>
+      <link>http://localhost:1313/note/1-copy-2/</link>
+      <pubDate>Sun, 28 Jul 2024 10:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/note/1-copy-2/</guid>
+      <description>This is my first note.</description>
+    </item>
+    <item>
+      <title>My First Note</title>
+      <link>http://localhost:1313/note/1/</link>
+      <pubDate>Sun, 28 Jul 2024 10:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/note/1/</guid>
+      <description>This is my first note.</description>
+    </item>
+    <item>
+      <title>My First Note</title>
+      <link>http://localhost:1313/note/2/</link>
+      <pubDate>Sun, 28 Jul 2024 10:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/note/2/</guid>
+      <description>This is my first note.</description>
+    </item>
+    <item>
+      <title>How a Stupid Bot Could Win Me Money</title>
+      <link>http://localhost:1313/posts/how-a-stupid-bot-could-win-me-money-copy/</link>
+      <pubDate>Sat, 20 Jul 2024 18:02:23 +0200</pubDate>
+      <guid>http://localhost:1313/posts/how-a-stupid-bot-could-win-me-money-copy/</guid>
+      <description></description>
+    </item>
     <item>
       <title>How a Stupid Bot Could Win Me Money</title>
       <link>http://localhost:1313/posts/how-a-stupid-bot-could-win-me-money/</link>
@@ -22,6 +50,33 @@
       <guid>http://localhost:1313/posts/who-am-i-copy/</guid>
       <description>I was born and raised in South Africa, and later moved to the United States with a vision that would redefine entire industries. My relentless drive and innovative spirit led me to co-found companies like Zip2 and X.com, which eventually became PayPal. However, my most notable ventures are Tesla and SpaceX, where I&amp;rsquo;m pushing the boundaries of what&amp;rsquo;s possible in electric vehicles and space travel.
 In a little over two decades, I&amp;rsquo;ve transformed from an ambitious entrepreneur into a household name, synonymous with groundbreaking technology and ambitious goals.</description>
+    </item>
+    <item>
+      <title>The illusion of innovation</title>
+      <link>http://localhost:1313/posts/making-money-in-a-sad-way-copy-2/</link>
+      <pubDate>Sat, 20 Jul 2024 18:01:57 +0200</pubDate>
+      <guid>http://localhost:1313/posts/making-money-in-a-sad-way-copy-2/</guid>
+      <description>I want to place a big disclaimer here: everything you are about to read does not refer to every company or startup you can think of, but still, 80% of them will probably fall into my negative perception.
+As a software engineer, I&amp;rsquo;m fortunate to work in a field that&amp;rsquo;s both lucrative and in high demand. Or am I just dreaming?
+It&amp;rsquo;s a profession that not only sustains me but also thrusts me into the very heart of the digital gold rush.</description>
+    </item>
+    <item>
+      <title>The illusion of innovation</title>
+      <link>http://localhost:1313/posts/making-money-in-a-sad-way-copy-3/</link>
+      <pubDate>Sat, 20 Jul 2024 18:01:57 +0200</pubDate>
+      <guid>http://localhost:1313/posts/making-money-in-a-sad-way-copy-3/</guid>
+      <description>I want to place a big disclaimer here: everything you are about to read does not refer to every company or startup you can think of, but still, 80% of them will probably fall into my negative perception.
+As a software engineer, I&amp;rsquo;m fortunate to work in a field that&amp;rsquo;s both lucrative and in high demand. Or am I just dreaming?
+It&amp;rsquo;s a profession that not only sustains me but also thrusts me into the very heart of the digital gold rush.</description>
+    </item>
+    <item>
+      <title>The illusion of innovation</title>
+      <link>http://localhost:1313/posts/making-money-in-a-sad-way-copy/</link>
+      <pubDate>Sat, 20 Jul 2024 18:01:57 +0200</pubDate>
+      <guid>http://localhost:1313/posts/making-money-in-a-sad-way-copy/</guid>
+      <description>I want to place a big disclaimer here: everything you are about to read does not refer to every company or startup you can think of, but still, 80% of them will probably fall into my negative perception.
+As a software engineer, I&amp;rsquo;m fortunate to work in a field that&amp;rsquo;s both lucrative and in high demand. Or am I just dreaming?
+It&amp;rsquo;s a profession that not only sustains me but also thrusts me into the very heart of the digital gold rush.</description>
     </item>
     <item>
       <title>The illusion of innovation</title>
