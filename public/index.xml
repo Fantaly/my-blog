@@ -4,7 +4,7 @@
     <title>Manuelrage.dev</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Manuelrage.dev</description>
-    <generator>Hugo -- 0.129.0</generator>
+    <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
     <lastBuildDate>Sun, 28 Jul 2024 10:00:00 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -42,6 +42,24 @@
       <pubDate>Sat, 20 Jul 2024 18:02:23 +0200</pubDate>
       <guid>http://localhost:1313/posts/how-a-stupid-bot-could-win-me-money/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Complex Embeddings for Simple Link Prediction</title>
+      <link>http://localhost:1313/posts/complex/</link>
+      <pubDate>Sat, 20 Jul 2024 18:01:57 +0200</pubDate>
+      <guid>http://localhost:1313/posts/complex/</guid>
+      <description>Complex Embeddings for Simple Link Prediction This repository contains the code of the main experiments presented in the papers:
+Complex Embeddings for Simple Link Prediction, Théo Trouillon, Johannes Welbl, Sebastian Riedel, Éric Gaussier and Guillaume Bouchard, ICML 2016.
+Knowledge Graph Completion via Complex Tensor Factorization, Théo Trouillon, Christopher R. Dance, Éric Gaussier, Johannes Welbl, Sebastian Riedel and Guillaume Bouchard, JMLR 2017.
+Install First clone the repository:
+git clone https://github.com/ttrouill/complex.git The code depends on downhill, a theano-based Stochastic Gradient Descent implementation.</description>
+    </item>
+    <item>
+      <title>Exploring DRM Technologies: Principles Behind Denuvo</title>
+      <link>http://localhost:1313/posts/denuvo/</link>
+      <pubDate>Sat, 20 Jul 2024 18:01:57 +0200</pubDate>
+      <guid>http://localhost:1313/posts/denuvo/</guid>
+      <description>This is a short description of the blog post. It will be displayed on the main blog page. It should be a sentence or two long and provide a brief overview of the post. This is a short description of the blog post. It will be displayed on the main blog page. It should be a sentence or two long and provide a brief overview of the post.</description>
     </item>
     <item>
       <title>I am Elon Musk, I am weird.</title>
@@ -88,6 +106,14 @@ As a software engineer, I&amp;rsquo;m fortunate to work in a field that&amp;rsqu
 It&amp;rsquo;s a profession that not only sustains me but also thrusts me into the very heart of the digital gold rush.</description>
     </item>
     <item>
+      <title>Understanding Heavy Assembly: The Backbone of Industrial Manufacturing</title>
+      <link>http://localhost:1313/posts/some-javascript/</link>
+      <pubDate>Sat, 20 Jul 2024 18:01:57 +0200</pubDate>
+      <guid>http://localhost:1313/posts/some-javascript/</guid>
+      <description>Example: Simple Heavy Assembly Component Tracker Here&amp;rsquo;s a basic JavaScript code that demonstrates a simple way to track heavy assembly components:
+// Array to store our assembly components let assemblyComponents = []; // Function to add a new component function addComponent(name, weight, description) { assemblyComponents.push({ name, weight, description }); console.log(`Added ${name} to the assembly.`); } // Function to list all components function listComponents() { console.log(&amp;#34;Current Assembly Components:&amp;#34;); assemblyComponents.forEach((component, index) =&amp;gt; { console.</description>
+    </item>
+    <item>
       <title>Who Am I</title>
       <link>http://localhost:1313/posts/who-am-i/</link>
       <pubDate>Sat, 20 Jul 2024 18:01:57 +0200</pubDate>
@@ -102,6 +128,14 @@ Interests Reverse Engineering: Delving into software internals to understand its
       <pubDate>Sat, 20 Jul 2024 17:59:14 +0200</pubDate>
       <guid>http://localhost:1313/posts/my-new-post/</guid>
       <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/socfeder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/socfeder/</guid>
+      <description>Requisiti Il progetto nasce dalla necessità di gestire in modo più uniforme e automatizzato gli ordini e le offerte ricevuti via email. Ogni ordine/offerta contiene informazioni in un formato sempre diverso sui materiali. Le richieste principali che ho capito sono principalmente queste:
+La prima richiesta consiste nell&amp;rsquo;estrarre le informazioni dalle offerte (che arrivano principalmente tramite email e allegati in formato PDF, TXT, ecc..), salvarle nel database interno e strutturarle uniformemente in modo da ottenere un formato unico.</description>
     </item>
   </channel>
 </rss>

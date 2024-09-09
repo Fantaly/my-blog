@@ -26,19 +26,43 @@
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-07-20T18:02:23+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/complex/</loc>
+    <lastmod>2024-07-20T18:01:57+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/denuvo/</loc>
+    <lastmod>2024-07-20T18:01:57+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/hugo/</loc>
     <lastmod>2024-07-20T18:01:57+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/who-am-i-copy/</loc>
     <lastmod>2024-07-20T18:01:57+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/industrial-manufacturing/</loc>
+    <lastmod>2024-07-20T18:01:57+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/javascript/</loc>
+    <lastmod>2024-07-20T18:01:57+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/just-my-stupid-opinion/</loc>
+    <lastmod>2024-07-20T18:01:57+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/knowledge-graphs/</loc>
+    <lastmod>2024-07-20T18:01:57+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/machine-learning/</loc>
+    <lastmod>2024-07-20T18:01:57+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/startups/</loc>
     <lastmod>2024-07-20T18:01:57+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-07-20T18:01:57+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/technology/</loc>
+    <lastmod>2024-07-20T18:01:57+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tensor-factorization/</loc>
     <lastmod>2024-07-20T18:01:57+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/making-money-in-a-sad-way-copy-2/</loc>
@@ -53,6 +77,9 @@
     <loc>http://localhost:1313/posts/making-money-in-a-sad-way/</loc>
     <lastmod>2024-07-20T18:01:57+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/some-javascript/</loc>
+    <lastmod>2024-07-20T18:01:57+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/web-development/</loc>
     <lastmod>2024-07-20T18:01:57+02:00</lastmod>
   </url><url>
@@ -61,6 +88,8 @@
   </url><url>
     <loc>http://localhost:1313/posts/my-new-post/</loc>
     <lastmod>2024-07-20T17:59:14+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/socfeder/</loc>
   </url><url>
     <loc>http://localhost:1313/archives/</loc>
   </url><url>

@@ -8,14 +8,20 @@ disableThemeToggle: true
 ShowToc: true
 TocOpen: true
 params:
+  fadeEffect: true
+  postContentFade: true
+  hideFooter: true
   comments: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
   homeInfoParams:
-    Title: Hi there wave
-    Content: Can be Info, links, about...
-
-
+    Title: Hi there! I'm Emanuel
+    Content: "I'm a software engineer, currently working at <a href='https://www.aiknowyou.ai/' style='color: #ee0d6b; padding-right:4px; font-weight: 600; font-style: italic'>Aiknowyou</a> <img alt='Spotify logo' loading='eager' width='20' height='16' decoding='async' data-nimg='1' srcset='https://app.aiknowyou.ai/_nuxt/aiku.CI5rUfAw.png 1x, https://app.aiknowyou.ai/_nuxt/aiku.CI5rUfAw.png 2x' src='https://app.aiknowyou.ai/_nuxt/aiku.CI5rUfAw.png' style='margin-top: 5px; border-radius: 3px; display: inline-block; vertical-align: top;'> in Amsterdam. I'm passionate about software development, cloud computing, and open-source. I'm also a big fan of the Rust programming language. I write about software development, cloud computing, and other tech-related topics. I hope you enjoy reading my blog!"
+  
+  socialIcons:
+  - name: github
+    title: View Source on Github
+    url: "https://github.com/adityatelange/hugo-PaperMod"
 
 languages:
   en:
@@ -35,11 +41,7 @@ languages:
         - name: Archive
           url: archives
           weight: 5
-        - name: Search
-          url: search/
           weight: 10
         - name: Tags
           url: tags/
           weight: 10
-        - name: WiKi
-          url: https://github.com/adityatelange/hugo-PaperMod/wiki/
