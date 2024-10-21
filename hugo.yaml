@@ -10,6 +10,9 @@ TocOpen: true
 params:
   fadeEffect: true
   postContentFade: true
+
+
+
   hideFooter: true
   comments: true
   ShowPostNavLinks: false
