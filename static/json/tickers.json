@@ -1,0 +1,47 @@
+[
+    {
+      "ticker": "CDR.WA",
+      "avgPrice": 145.0675,
+      "shares": 270,
+      "percentage": 0
+    },
+    {
+      "ticker": "GOOGL",
+       
+      "avgPrice": 192,
+      "shares": 9,
+      "percentage": 0
+    },
+    {
+        "ticker": "AMD",
+
+        "avgPrice": 125,
+        "shares": 40,
+        "percentage": 0
+      },
+      {
+        "ticker": "INTC",
+        "avgPrice": 20.5,
+        "shares": 40,
+        "percentage": 0
+      },
+      {
+        "ticker": "OKLO",
+        "avgPrice": 15.4,
+        "shares": 121,
+        "percentage": 0
+      },
+      {
+        "ticker": "UEN.F",
+        "avgPrice": 12.8,
+        "shares": 105,
+        "percentage": 0
+      },
+      {
+        "ticker": "RDDT",
+        "avgPrice": 177,
+        "shares": 4,
+        "percentage": 0
+      }
+  ]
+  

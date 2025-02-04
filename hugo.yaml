@@ -38,13 +38,19 @@ languages:
       series: series
     menu:
       main:
-        - name: Notes
-          url: note
+        - name: Financial
+          url: financial
           weight: 1
-        - name: Archive
-          url: archives
-          weight: 5
-          weight: 10
-        - name: Tags
-          url: tags/
-          weight: 10
+        
+        - name: Omnisent
+          url: omnisent
+          weight: 2
+        # - name: Notes
+        #   url: note
+        #   weight: 1
+        
+
+        # - name: Archive
+        #   url: archives
+        #   weight: 5
+        #   weight: 10

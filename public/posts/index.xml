@@ -4,7 +4,7 @@
     <title>Posts on Manuelrage.dev</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Manuelrage.dev</description>
-    <generator>Hugo -- 0.134.1</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
     <lastBuildDate>Sat, 20 Jul 2024 18:02:23 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -34,7 +34,9 @@ Théo Trouillon, Johannes Welbl, Sebastian Riedel, Éric Gaussier and Guillaume 
 &lt;p&gt;&lt;a href=&#34;http://www.jmlr.org/papers/volume18/16-563/16-563.pdf&#34;&gt;Knowledge Graph Completion via Complex Tensor Factorization&lt;/a&gt;,
 Théo Trouillon, Christopher R. Dance, Éric Gaussier, Johannes Welbl, Sebastian Riedel and Guillaume Bouchard, JMLR 2017.&lt;/p&gt;
 &lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
-&lt;p&gt;First clone the repository:&lt;/p&gt;</description>
+&lt;p&gt;First clone the repository:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git clone https://github.com/ttrouill/complex.git
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The code depends on &lt;a href=&#34;https://github.com/lmjohns3/downhill&#34;&gt;downhill&lt;/a&gt;, a theano-based Stochastic Gradient Descent implementation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Exploring DRM Technologies: Principles Behind Denuvo</title>
@@ -50,6 +52,39 @@ Théo Trouillon, Christopher R. Dance, Éric Gaussier, Johannes Welbl, Sebastian
       <guid>http://localhost:1313/posts/who-am-i-copy/</guid>
       <description>&lt;p&gt;I was born and raised in South Africa, and later moved to the United States with a vision that would redefine entire industries. My relentless drive and innovative spirit led me to co-found companies like Zip2 and X.com, which eventually became PayPal. However, my most notable ventures are Tesla and SpaceX, where I&amp;rsquo;m pushing the boundaries of what&amp;rsquo;s possible in electric vehicles and space travel.&lt;/p&gt;
 &lt;p&gt;In a little over two decades, I&amp;rsquo;ve transformed from an ambitious entrepreneur into a household name, synonymous with groundbreaking technology and ambitious goals. My achievements are a testament to my ability to see opportunities where others see obstacles. Yet, behind the accolades and the headlines, lies a deep thinker, constantly questioning and striving to understand the world better.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reverse Engineering C&#43;&#43; Games: A Practical Overview</title>
+      <link>http://localhost:1313/posts/some-javascript/</link>
+      <pubDate>Sat, 20 Jul 2024 18:01:57 +0200</pubDate>
+      <guid>http://localhost:1313/posts/some-javascript/</guid>
+      <description>&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/some-javascript/#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/some-javascript/#background-and-history&#34;&gt;Background and History&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/some-javascript/#ethical-and-legal-considerations&#34;&gt;Ethical and Legal Considerations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/some-javascript/#essential-tools-and-comparisons&#34;&gt;Essential Tools and Comparisons&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/some-javascript/#tool-comparison-table&#34;&gt;Tool Comparison Table&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/some-javascript/#detailed-methodologies&#34;&gt;Detailed Methodologies&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/some-javascript/#static-analysis&#34;&gt;Static Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/some-javascript/#dynamic-analysis&#34;&gt;Dynamic Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/some-javascript/#debugging-and-patching&#34;&gt;Debugging and Patching&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/some-javascript/#advanced-techniques-in-reverse-engineering&#34;&gt;Advanced Techniques in Reverse Engineering&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/some-javascript/#case-study&#34;&gt;Case Study: Analyzing a C++ Game Networking Subsystem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/some-javascript/#challenges-pitfalls-and-best-practices&#34;&gt;Challenges, Pitfalls, and Best Practices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/some-javascript/#future-trends-in-reverse-engineering&#34;&gt;Future Trends in Reverse Engineering&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/some-javascript/#resources-and-further-reading&#34;&gt;Resources and Further Reading&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/some-javascript/#conclusion&#34;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
+&lt;p&gt;Reverse engineering is the art of deconstructing software to understand its inner workings. In the context of C++ games, the complexity increases due to factors like object-oriented design, intricate memory management, and aggressive optimization techniques used by developers. This post is designed to guide you through the reverse engineering process step-by-step while emphasizing ethical considerations and legal compliance.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The illusion of innovation</title>
@@ -88,52 +123,21 @@ Théo Trouillon, Christopher R. Dance, Éric Gaussier, Johannes Welbl, Sebastian
 &lt;p&gt;It&amp;rsquo;s a profession that not only sustains me but also thrusts me into the very heart of the digital gold rush. Yet, here’s the unvarnished truth: much of our work in this industry is a cleverly disguised act of mimicry.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Understanding Heavy Assembly: The Backbone of Industrial Manufacturing</title>
-      <link>http://localhost:1313/posts/some-javascript/</link>
-      <pubDate>Sat, 20 Jul 2024 18:01:57 +0200</pubDate>
-      <guid>http://localhost:1313/posts/some-javascript/</guid>
-      <description>&lt;h2 id=&#34;example-simple-heavy-assembly-component-tracker&#34;&gt;Example: Simple Heavy Assembly Component Tracker&lt;/h2&gt;
-&lt;p&gt;Here&amp;rsquo;s a basic JavaScript code that demonstrates a simple way to track heavy assembly components:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Array to store our assembly components
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;assemblyComponents&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [];
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Function to add a new component
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;addComponent&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;weight&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;description&lt;/span&gt;) {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;assemblyComponents&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;push&lt;/span&gt;({ &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;weight&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;description&lt;/span&gt; });
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;`Added &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; to the assembly.`&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Function to list all components
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;listComponents&lt;/span&gt;() {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Current Assembly Components:&amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;assemblyComponents&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;forEach&lt;/span&gt;((&lt;span style=&#34;color:#a6e22e&#34;&gt;component&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;index&lt;/span&gt;) =&amp;gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;index&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;. &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;component&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; - &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;component&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;weight&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; tons`&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  });
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Function to calculate total weight
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;getTotalWeight&lt;/span&gt;() {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;totalWeight&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;assemblyComponents&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;reduce&lt;/span&gt;((&lt;span style=&#34;color:#a6e22e&#34;&gt;sum&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;component&lt;/span&gt;) =&amp;gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sum&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;component&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;weight&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;`Total assembly weight: &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;totalWeight&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; tons`&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Example usage
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;addComponent&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Main Frame&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Central support structure&amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;addComponent&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Engine Block&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;V8 diesel engine&amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;addComponent&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Crane Arm&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;25&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Telescopic crane attachment&amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;listComponents&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;getTotalWeight&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pr</description>
-    </item>
-    <item>
       <title>Who Am I</title>
       <link>http://localhost:1313/posts/who-am-i/</link>
       <pubDate>Sat, 20 Jul 2024 18:01:57 +0200</pubDate>
       <guid>http://localhost:1313/posts/who-am-i/</guid>
       <description>&lt;p&gt;Hello, my name is [Your Name]. I am currently studying reverse engineering for legal purposes and learning English. My focus area is binary exploitation.&lt;/p&gt;
 &lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
-&lt;p&gt;I have a keen interest in understanding how software works at a fundamental level. This has led me to explore reverse engineering, where I dismantle software to see how it functions internally. This process is fascinating and helps in improving my problem-solving skills.&lt;/p&gt;</description>
+&lt;p&gt;I have a keen interest in understanding how software works at a fundamental level. This has led me to explore reverse engineering, where I dismantle software to see how it functions internally. This process is fascinating and helps in improving my problem-solving skills.&lt;/p&gt;
+&lt;h3 id=&#34;interests&#34;&gt;Interests&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Reverse Engineering:&lt;/strong&gt; Delving into software internals to understand its workings.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Binary Exploitation:&lt;/strong&gt; Exploring vulnerabilities in binary software for educational and ethical purposes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Learning English:&lt;/strong&gt; Continuously improving my English to better understand technical documents and communicate with the global tech community.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;goals&#34;&gt;Goals&lt;/h3&gt;
+&lt;p&gt;My main goals are to:&lt;/p&gt;</description>
     </item>
     <item>
       <title>My New Post</title>

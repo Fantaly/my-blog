@@ -53,6 +53,9 @@
     <loc>http://localhost:1313/tags/machine-learning/</loc>
     <lastmod>2024-07-20T18:01:57+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/some-javascript/</loc>
+    <lastmod>2024-07-20T18:01:57+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/startups/</loc>
     <lastmod>2024-07-20T18:01:57+02:00</lastmod>
   </url><url>
@@ -77,9 +80,6 @@
     <loc>http://localhost:1313/posts/making-money-in-a-sad-way/</loc>
     <lastmod>2024-07-20T18:01:57+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/some-javascript/</loc>
-    <lastmod>2024-07-20T18:01:57+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/web-development/</loc>
     <lastmod>2024-07-20T18:01:57+02:00</lastmod>
   </url><url>
@@ -94,6 +94,10 @@
     <loc>http://localhost:1313/archives/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/financial/</loc>
+  </url><url>
+    <loc>http://localhost:1313/omnisent/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
   </url><url>
